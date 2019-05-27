@@ -1,0 +1,19 @@
+﻿<Window x:Class="_184784U5Quadratics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184784U5Quadratics"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="525" Width="625">
+    <Canvas x:Name="canvas">
+        <TextBox x:Name="TextboxA" Canvas.Left="40" Canvas.Top="31" Width="19" Height="19"/>
+        <TextBox x:Name="TextboxB" Canvas.Left="88" Canvas.Top="31" Width="19" Height="19" />
+        <TextBox x:Name="TextboxC" Canvas.Left="64" Canvas.Top="31" Width="19" Height="19" />
+        <Button x:Name="btnInput" Click="btnInput_Click" Content="Calculate Parabola" Canvas.Left="23" Canvas.Top="55" Height="21" Width="102" />
+        <Label x:Name="lblOutput" Canvas.Left="40" Canvas.Top="81" Height="91" Width="67" />
+        <TextBlock Canvas.Left="40" Canvas.Top="10" Width="19">A</TextBlock>
+        <TextBlock Canvas.Left="64" Canvas.Top="10" Width="19">B</TextBlock>
+        <TextBlock Canvas.Left="88" Canvas.Top="10" Width="19">C</TextBlock>
+    </Canvas>
+</Window>
